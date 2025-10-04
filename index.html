@@ -44,7 +44,11 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            background-image:url("bj.gif");
+            background-size: cover; /* 修改为cover，使图片铺满满屏 */
+      background-attachment: fixed; /* 可选，使背景图片固定不随页面滚动 */
+      margin: 0; /* 去除默认边距 */
+      padding: 0; /* 去除默认内边距 */
         }
 
         .auth-card {
@@ -56,6 +60,7 @@
             padding: 2.5rem;
             text-align: center;
             animation: fadeIn 0.5s ease-out;
+            background-color: rgba(0, 0, 255, 0);
         }
 
         .auth-card h2 {
@@ -315,6 +320,7 @@
             background: var(--gray-100);
             display: flex;
             justify-content: center;
+            
         }
 
         .entry-content {
@@ -455,10 +461,17 @@
             z-index: 100;
             justify-content: center;
             align-items: center;
+            background-image:url("bj.gif");
+            background-size: cover; /* 修改为cover，使图片铺满满屏 */
+      background-attachment: fixed; /* 可选，使背景图片固定不随页面滚动 */
+      margin: 0; /* 去除默认边距 */
+      padding: 0; /* 去除默认内边距 */
+     
         }
 
         .modal-content {
-            background: white;
+            
+     
             border-radius: 16px;
             width: 90%;
             max-width: 600px;
@@ -511,6 +524,12 @@
             border-radius: 8px;
             font-size: 1rem;
             transition: all 0.3s;
+            background-image:url("bj.gif");
+            background-size: cover; /* 修改为cover，使图片铺满满屏 */
+      background-attachment: fixed; /* 可选，使背景图片固定不随页面滚动 */
+      margin: 0; /* 去除默认边距 */
+      padding: 0; /* 去除默认内边距 */
+     
         }
 
         .modal-body input:focus,
@@ -828,6 +847,7 @@
                 <button class="btn btn-primary" id="confirm-delete" style="background: var(--danger);">删除</button>
             </div>
         </div>
+        <audio src="https://lcy20.pages.dev/appyy.mp3" loop="true" autoplay="true"></audio>
     </div>
 
     <script>
